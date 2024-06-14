@@ -1,0 +1,26 @@
+.cards {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px !important;
+}
+
+.cards__action {
+  height: 100%;
+}
+
+.cards__action__content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.cards__action__content2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+}

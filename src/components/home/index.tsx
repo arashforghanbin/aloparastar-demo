@@ -3,6 +3,7 @@ import React from "react";
 import Head from "./Head";
 import Cards from "./Cards";
 import Banner from "./Banner";
+import QuickRequest from "./QuickRequest";
 
 const Home = () => {
   return (
@@ -17,6 +18,10 @@ const Home = () => {
 
       <Grid item xs={12}>
         <Banner />
+      </Grid>
+
+      <Grid item xs={12}>
+        <QuickRequest />
       </Grid>
     </Grid>
   );

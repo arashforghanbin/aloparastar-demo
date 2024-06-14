@@ -1,5 +1,5 @@
 .banner {
-  transform: translate(25%, 100%) !important;
+  transform: translate(20%, 100%) !important;
 }
 
 .banner__title {
@@ -8,5 +8,5 @@
 }
 
 .banner__desc {
-  font-size: 2vw !important;
+  font-size: 2.5vw !important;
 }
