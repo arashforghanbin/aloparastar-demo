@@ -19,23 +19,23 @@ const BottomNav = () => {
     >
       <IconButton className={styles.nav__button}>
         <HomeIcon />
-        <Typography variant="body2">خانه</Typography>
+        <Typography variant="caption">خانه</Typography>
       </IconButton>
       <IconButton className={styles.nav__button}>
         <RequestsIcon />
-        <Typography color={theme.palette.grey[500]} variant="body2">
+        <Typography color={theme.palette.grey[500]} variant="caption">
           درخواست‌ها
         </Typography>
       </IconButton>
       <IconButton className={styles.nav__button}>
         <ContractsIcon />
-        <Typography color={theme.palette.grey[500]} variant="body2">
+        <Typography color={theme.palette.grey[500]} variant="caption">
           قرارداد‌‌ها
         </Typography>
       </IconButton>
       <IconButton className={styles.nav__button}>
         <MoreIcon />
-        <Typography color={theme.palette.grey[500]} variant="body2">
+        <Typography color={theme.palette.grey[500]} variant="caption">
           بیشتر
         </Typography>
       </IconButton>

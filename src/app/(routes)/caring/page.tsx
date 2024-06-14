@@ -1,7 +1,14 @@
-import React from "react";
+import HomeLayout from "@/app/(routes)/(home)/layout";
+import Caring from "@/components/Caring";
 
-const CaringPage = () => {
-  return <div></div>;
+export default function CaringPage() {
+  return (
+    <>
+      <Caring />
+    </>
+  );
+}
+
+CaringPage.getLayout = function getLayout(page: any) {
+  return <HomeLayout>{page}</HomeLayout>;
 };
-
-export default CaringPage;

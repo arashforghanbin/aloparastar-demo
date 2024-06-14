@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Card,
   CardActionArea,
@@ -11,13 +13,19 @@ import BandageIcon from "/public/icons/home/Bandage.svg";
 import EmergencyLightIcon from "/public/icons/home/EmergencyLight.svg";
 import NurseIcon from "/public/icons/home/Nurse.svg";
 import HeartRateIcon from "/public/icons/home/HeartRate.svg";
+import { useRouter } from "next/navigation";
 
 const Cards = () => {
+  const router = useRouter();
+
   return (
     <Grid padding={2} container spacing={2}>
       <Grid item xs={6}>
         <Card elevation={0} className={styles.cards}>
-          <CardActionArea className={styles.cards__action}>
+          <CardActionArea
+            onClick={() => router.push("/caring")}
+            className={styles.cards__action}
+          >
             <CardContent className={styles.cards__action__content}>
               <BandageIcon />
               <Typography variant="body2">مراقبتی</Typography>
