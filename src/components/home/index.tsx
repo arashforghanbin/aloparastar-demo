@@ -7,7 +7,7 @@ import QuickRequest from "./QuickRequest";
 
 const Home = () => {
   return (
-    <Grid container>
+    <Grid container marginBottom={8}>
       <Grid item xs={12}>
         <Head />
       </Grid>

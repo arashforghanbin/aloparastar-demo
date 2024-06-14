@@ -1,5 +1,6 @@
 "use client";
 
+import BottomNav from "@/components/common/BottomNav";
 import Rtl from "@/components/wrappers/RTLWrapper";
 import { ThemeProvider, createTheme } from "@mui/material";
 import React, { ReactElement } from "react";
@@ -18,7 +19,10 @@ const theme = createTheme({
 const HomeLayout = ({ children }: HomeLayoutType) => {
   return (
     <Rtl>
-      <ThemeProvider theme={theme}>{children}</ThemeProvider>
+      <ThemeProvider theme={theme}>
+        {children}
+        <BottomNav />
+      </ThemeProvider>
     </Rtl>
   );
 };
