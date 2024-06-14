@@ -1,6 +1,6 @@
 "use client";
 
-import BottomNav from "@/components/common/BottomNav";
+import ProgressButton from "@/components/common/ProgressButton";
 import Rtl from "@/components/wrappers/RTLWrapper";
 import { ThemeProvider, createTheme } from "@mui/material";
 import React, { ReactElement } from "react";
@@ -21,7 +21,7 @@ const HomeLayout = ({ children }: CaringLayout) => {
     <Rtl>
       <ThemeProvider theme={theme}>
         {children}
-        <BottomNav />
+        <ProgressButton />
       </ThemeProvider>
     </Rtl>
   );
