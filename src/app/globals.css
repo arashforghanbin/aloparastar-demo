@@ -1,3 +1,5 @@
+@import url(https://db.onlinewebfonts.com/c/002254488ce1877d55ad3693e527ad1e?family=IRANSansWeb);
+
 * {
   padding: 0;
   margin: 0;
@@ -5,5 +7,6 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "IRANSansWeb", sans-serif;
+  background-color: #f4f5fc;
 }

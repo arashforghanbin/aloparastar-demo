@@ -1,0 +1,12 @@
+.banner {
+  transform: translate(25%, 100%) !important;
+}
+
+.banner__title {
+  font-size: 4vw !important;
+  font-size: max(16px);
+}
+
+.banner__desc {
+  font-size: 2vw !important;
+}
