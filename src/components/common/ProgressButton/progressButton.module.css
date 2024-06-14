@@ -3,6 +3,7 @@
   background-color: white;
   padding: 16px 16px;
   border-radius: 16px 16px 0 0;
+  box-shadow: 0px -1px 11.3px 0px #d2d9e333;
 }
 
 .nav__button {
